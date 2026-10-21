@@ -1,31 +1,31 @@
 # Outpost
 
-Outpost est un espace de travail pour les équipes de développement.
-Son objectif : réunir les projets et leurs tâches dans un même endroit
-pour faciliter l’organisation du travail et la collaboration.
+Outpost is a workspace for development teams.
+It brings projects and their tasks together in one place
+to make organizing work and collaborating easier.
 
 ## Outpost Core
 
-Ce dépôt partage une sélection du code source d’Outpost, construit avec
-Ruby on Rails. Il permet d’explorer les fondations du projet à travers
-des exemples concrets.
+This repository shares selected parts of Outpost's source code, built with
+Ruby on Rails. It offers practical examples to explore the project's
+foundations.
 
-Vous y trouverez :
+It includes:
 
-- Les modèles `Project` et `Task` et leur association.
-- Les helpers associés aux projets et aux tâches.
-- Les fichiers de tests des modèles, comme points de départ à compléter.
+- The `Project` and `Task` models and their association.
+- Helpers for projects and tasks.
+- Model test files as starting points to build on.
 
-## Pour apprendre
+## Learning from the code
 
-Le code publié permet notamment de découvrir comment Rails représente
-une relation entre un projet et ses tâches avec Active Record, et comment
-la suppression d’un projet entraîne celle de ses tâches.
+The published code demonstrates how Rails represents the relationship
+between a project and its tasks using Active Record, and how deleting
+a project also deletes its tasks.
 
-## Périmètre
+## Scope
 
-Outpost Core est un extrait du projet, pas une application autonome.
-L’interface web, l’authentification et la configuration nécessaire au
-fonctionnement du site ne sont pas incluses.
+Outpost Core is an excerpt from the project, not a standalone application.
+The web interface, authentication, and configuration required to run
+the website are not included.
 
-Les fichiers sont synchronisés depuis le dépôt principal d’Outpost.
+Files are synchronized from Outpost's main repository.
