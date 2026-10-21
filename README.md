@@ -1,2 +1,4 @@
-# outpost-core
-This is the outpost core open source repository if you are interested to see a part of my work on this web app.
+# Outpost
+
+Outpost est un espace de travail partagé pour les équipes de développement,
+conçu pour centraliser leurs projets et leurs tâches et faciliter leur collaboration.
