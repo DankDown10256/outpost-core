@@ -18,7 +18,7 @@ class Invitation < ApplicationRecord
       if response == "accepted"
         organization.with_lock do
           unless organization.users.exists?(recipient_id)
-            organization.users << recipient
+            organization.organization_memberships.create!(user: recipient, role: "member")
           end
         end
       end
