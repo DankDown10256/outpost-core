@@ -1,4 +1,5 @@
 class Activity < ApplicationRecord
+  belongs_to :project
   has_many :webhook_events, dependent: :destroy
 
   before_validation do
