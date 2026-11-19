@@ -13,8 +13,14 @@ foundations.
 It includes:
 
 - The `Project` and `Task` models and their association.
+- The organization domain: `Organization`, `OrganizationMembership`
+  (owner / admin / member roles), `Team` and `Invitation`.
+- Git activity tracking: the `Activity` and `WebhookEvent` models and the
+  `WebhookProcessor` service that verifies GitHub/GitLab webhook signatures.
+- The database schema (`db/schema.rb`) describing tables and constraints.
 - Helpers for projects and tasks.
 - Model test files as starting points to build on.
+- The Ruby version and RuboCop configuration used by the project.
 
 ## Learning from the code
 
